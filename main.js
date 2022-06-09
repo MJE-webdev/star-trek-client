@@ -12,7 +12,7 @@ async function apiRequest(){
         document.getElementById('alienFacts').innerText = data.interestingFact
         document.getElementById('alienExamples').innerText = data.notableExamples
         document.getElementById('alienImage').src = data.image
-        document.getElementById('alienCaption').innerText = data.speciesNam
+        document.getElementById('alienCaption').innerText = data.speciesName
     }catch(error){
         console.log(error)
 
